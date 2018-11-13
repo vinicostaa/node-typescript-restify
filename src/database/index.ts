@@ -3,6 +3,7 @@ import { Produto } from '../models/produto';
 import { Estoque } from '../models/estoque';
 import { EntradaProduto } from '../models/entradaProduto';
 import { SaidaProduto } from '../models/saidaProduto';
+import { Usuario } from '../models/usuario';
 
 
 export interface DatabaseConfiguration {
@@ -39,12 +40,11 @@ export class DatabaseProvider {
                 ssl
             },
             entities: [
-                // Customer,
-                // Bill,
                 Produto,
                 Estoque,
                 EntradaProduto,
-                SaidaProduto
+                SaidaProduto,
+                Usuario
             ],
             autoSchemaSync: true
         } as any); // as any to prevent complaining about the object does not fit to MongoConfiguration, which we won't use here

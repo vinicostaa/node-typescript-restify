@@ -3,6 +3,7 @@ import { ProdutoController } from './produto';
 import { EntradaProdutoController } from './entradaProduto';
 import { SaidaProdutoController } from './saidaProduto';
 import { EstoqueController } from './estoque';
+import { UsuarioController } from './usuario';
 
 
 export const CONTROLLERS = [
@@ -10,5 +11,6 @@ export const CONTROLLERS = [
     new ProdutoController(),
     new EntradaProdutoController(),
     new SaidaProdutoController(),
-    new EstoqueController
+    new EstoqueController(),
+    new UsuarioController()
 ];
