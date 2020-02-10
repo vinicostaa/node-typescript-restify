@@ -1,8 +1,3 @@
-# javascript-conference-nodejs-typescript
-
-This repository contains the sample for the talk "Modern Web APIs with Node.js & TypeScript" at the International JavaScript Conference 2017 in Munich.
-Slides can be found on [Speakerdeck](https://speakerdeck.com/manuelrauber/modern-web-apis-with-node-dot-js-and-typescript-1)
-
 ## Setup
 
 Run `npm i` to install all necessary packages.
