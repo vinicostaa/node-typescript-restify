@@ -20,15 +20,15 @@
   "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
   "license": "ISC",
   "dependencies": {
-    "@types/restify": "^5.0.3",
-    "mysql": "^2.16.0",
-    "nodemon": "^1.12.1",
-    "pg": "^7.3.0",
-    "reflect-metadata": "^0.1.10",
-    "restify": "^6.0.0",
-    "rimraf": "^2.4.5",
+    "@types/restify": "^5.0.11",
+    "mysql": "^2.18.1",
+    "nodemon": "^1.19.4",
+    "pg": "^7.18.2",
+    "reflect-metadata": "^0.1.13",
+    "restify": "^6.4.0",
+    "rimraf": "^2.7.1",
     "ts-node": "^3.3.0",
     "typeorm": "0.1.15",
-    "typescript": "^2.5.2"
+    "typescript": "^2.9.2"
   }
 }
