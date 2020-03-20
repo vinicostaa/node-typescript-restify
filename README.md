@@ -14,4 +14,4 @@ Please take a look at both controllers for all available routes.
 
 The sample uses a database for storing the data. 
 Thanks to [TypeORM](https://github.com/typeorm/typeorm) several database engines are supported. 
-You can set the credentials for your own database in the [`src/index.ts`-file]()src/index.ts 
+You can set the credentials for your own database in the src/index.ts 
