@@ -28,7 +28,7 @@
     "restify": "^6.4.0",
     "rimraf": "^2.7.1",
     "ts-node": "^3.3.0",
-    "typeorm": "0.1.15",
+    "typeorm": "0.2.25",
     "typescript": "^2.9.2"
   }
 }
